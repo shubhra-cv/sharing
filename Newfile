@@ -1,0 +1,22 @@
+from faker import Faker
+from faker.providers import BaseProvider
+
+class UniqueFakerProvider(BaseProvider):
+    def unique_bothify(self, text):
+        unique_value = self.bothify(text)
+        while unique_value in self.unique_values:
+            unique_value = self.bothify(text)
+        self.unique_values.add(unique_value)
+        return unique_value
+
+fake = Faker()
+fake.add_provider(UniqueFakerProvider)
+
+# Set to store unique values
+fake.unique_values = set()
+
+# Example usage
+for _ in range(10):
+    unique_value = fake.unique_bothify('###???')
+    print(unique_value)
+￼Enter
