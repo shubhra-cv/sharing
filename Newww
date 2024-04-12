@@ -1,0 +1,15 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+def frequency_encode_categorical(df):
+    cat_cols = df.select_dtypes(include=['object']).columns
+    for col in cat_cols:
+        freq_encoding = df[col].value_counts(normalize=True)
+        df[col+'_freq_encoded'] = df[col].map(freq_encoding)
+    return df
+
+# Example usage:
+# Assuming df is your DataFrame
+# df = pd.read_csv('your_data.csv')
+# df = frequency_encode_categorical(df)
+￼Enter
