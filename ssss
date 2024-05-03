@@ -1,0 +1,1578 @@
+
+hello everyone this is dhruv from
+edureka and i welcome you all to this
+session where i will be talking about
+hypothesis testing statistics so without
+any further ado let's take a look at
+today's agenda so we will start this
+session by first having an introduction
+to hypothesis testing then we will also
+understand what a null and alternate
+hypothesis and then we will also
+understand the methods used in
+hypothesis testing like critical value
+method and p-value method moving ahead
+we will also understand the types of
+errors which can occur under hypothesis
+testing and then we will look at the
+case study on flipkart and finally we
+will then look at the industry
+demonstration with the demo by using
+multiple tests which are used in the
+industry for demonstrating hypothesis
+testing before we begin do consider
+subscribing to my youtube channel and
+hit the bell icon to stay updated on
+trending technologies
+and also if you are interested in online
+training certification in data science
+as well as statistics check out the link
+given in the description box below
+so first let's have an introduction to
+hypothesis testing so the first question
+which might arise in your mind is what
+is a hypothesis so let's understand this
+with an example like few years ago if
+you remember megan noodles were banned
+which is a product of a nestle company
+on the claim that it has excess amount
+of lead in it so the government
+regulatory body which says that there
+cannot be more than 2.5 ppm of the lead
+in any food product has conducted a test
+on a sample of making noodles and found
+that there was an excess lead in mega
+noodles so what happened is you can see
+here like the red content so the red
+contains should be less than 2.5 ppm as
+per the government regulatory bodies so
+what happens is suppose if like the
+manufacturer like which is the nestle
+which produces one million packets of
+mega noodles every day you cannot
+actually do a survey on that what they
+did is they did a survey on ten thousand
+packets of mega noodles and that's how
+they found out that there is excess lead
+in meg inverse so this is how it becomes
+a claim by extracting a sample through a
+very big population because the
+government or regulatory body cannot do
+tests on all the packets of mega noodles
+so they extracted out a small sample out
+of a very book population and they made
+a test out of it and that's how they
+reach to a conclusion that's how they
+claim that magnitudes contain excess
+lead so the process of extracting our
+sample from big population and
+conducting a test on it is called
+hypothesis i hope it's clear now we can
+also look at another example like a
+survey being conducted on eureka
+employees the average commute time of an
+edwardian employee to reach office from
+home and then going back to the office
+comes out to be 35 minutes on average
+but it's an average means there are
+employees which are taking time as 10
+minutes also some are taking time is 50
+minutes also one hour also some are
+taking just 30 minutes 40 minutes also
+so we found out that we conducted a
+survey on uh hundred employees and we
+found out the average time to be 35
+minutes so this becomes a claim this is
+the status quo so this is how the
+hypothesis has been formulated now let's
+understand what is hypothesis testing so
+if you conduct a test on this hypothesis
+that's what hypothesis testing is so
+hypothesis testing if i frame it it
+becomes hypothesis testing is like used
+to confirm your conclusion about the
+population through hypothesis testing
+you can determine whether there is
+enough evidence to conclude if the
+hypothesis about the population
+parameter is true or not now let's
+understand the null and alternate
+hypothesis so we will understand this
+with an example of criminal trial
+so suppose there is an accused which has
+done some crime and now judge has to
+decide whether he has done the crime or
+he has not done the crime so they are
+like now two hypotheses you can see the
+first hypothesis is that accused is
+innocent he hasn't done the crime and
+the second is that the accused has done
+the crime and he is a guilty so you can
+see here like there are two opposite
+hypotheses here so the first one is null
+hypothesis denoted as h naught which is
+a prevailing belief about the population
+it states that there is no change or
+there is no difference in the status quo
+means there is no difference in the
+situation according to which the accused
+is innocent and he is just a member of
+the society and he hasn't done anything
+wrong the second one is alternate
+hypothesis denoted as h1 which is the
+claim that opposes the null hypothesis
+which means that accused is innocent
+which brings a change in the situation a
+difference in the situation now if you
+remember the older example which i gave
+you of making noodles now the status
+queue here is if you remember the null
+hypothesis here is that the lead in the
+full product means in the making noodles
+does not exceed the maximum limit that
+is it does not exceed the 2.5 ppm and
+the alternate hypothesis will be led in
+the mega nodes does exceed the 2.5 ppm
+limit that is the maximum limit now if
+you remember the example of hyderabad
+employee the survey on android employees
+for reaching the office and coming back
+from the office to their respective
+homes means the average commute time
+which is taken by them is 35 minutes but
+suppose now the claim is after some
+research or survey we found out that
+it's taking more than 35 minutes so now
+can you please tell me which one is
+another hypothesis will be in this
+situation like i will give you the
+option so the first option is like
+employees take an average commute time
+of 35 minutes and option b is always
+take more than 35 minutes so you can
+pause this video right now and you can
+answer the question in the comment
+section below now you see the outcome of
+the community example is like the null
+hypothesis accused as innocent and
+alternate hypothesis is that the
+acquisition is not innocent so if you
+see here the rejection of null
+hypothesis will be like guilty because
+that is status quo there is no change
+but if you reject the status quo which
+means the accused is guilty and the
+second is failure to reject the null
+hypothesis which means the accused is
+not guilty which means like we don't
+have the enough evidence to reject the
+null hypothesis but remember this thing
+that in any way there cannot be a
+situation where you accept the null
+hypothesis
+the only situation is you don't have
+enough evidence to reject the null
+hypothesis now we have to understand
+this important concept it is formulation
+of null and alternate hypothesis so now
+we will understand how to formulate null
+and alternate hypothesis so if your
+claim statement has words like at least
+at most less than or greater than you
+cannot formulate the null hypothesis
+just from the claim statement because
+it's not necessary the claim is about
+the status quo means always about the
+status quo so you can use the following
+rule to formulate the null and alternate
+hypothesis so the null hypothesis always
+has the following signs like equal to or
+smaller than equals to a greater than
+equals to and the alternate hypothesis
+always has the following signs like not
+equal to or greater than or lesser than
+keep that in mind this is a very
+important thing now let's see an example
+of a flipkart supposedly claimed that
+its total valuation in december 2020 was
+at least 20 billion dollar here the
+claim contains greater than equals to
+sign so the null hypothesis is the
+original claim the hypothesis in this
+case can be formulated as like you can
+see here total valuation greater than
+equals 20 billion which is null
+hypothesis and total valuation is
+smaller than is a 20 billion dollar you
+can understand the difference between
+the signs i have told you the signs
+which are used in null hypothesis and
+ordering hypothesis you can see the
+equal sign is there and there is no
+equal sign in alternate hypothesis
+similarly in situation two you can like
+a flip flop claim that your total
+valuation in december 2020 was greater
+than 20 billion
+here the claim contains greater sign so
+the null hypothesis is the complement of
+the original claim so the hypothesis in
+this case can be formulated as you can
+see like total valuation greater than 20
+billion which is alternate hypothesis
+and total valuation which is smaller
+than equals to 20 billion dollar is null
+hypothesis you can see the difference
+between the signs to summarize this you
+cannot decide the status queue or
+formulate the null hypothesis from the
+claim statement you need to take care of
+the science in writing the null
+hypothesis it always has to be
+formulated using not equals to or
+greater or smaller science once you have
+formulated the null and alternate
+hypothesis the next most important step
+of hypothesis testing is making the
+decision to either reject or fail to
+reject the null hypothesis we will
+understand this with the article value
+method so we take here the example of
+archery now suppose there's a friend of
+yours named avirel who likes to brag
+about his skills of r3 and he told like
+he has scored 17 archery but you doubt
+his claim because you have a perception
+that he likes to brag about so you have
+this perception of a viral that he
+usually brags so you doubt his limb so
+you can see like avigil's game here is
+that he scored 17 that is the status quo
+means that is the null hypothesis so for
+clearing your doubts just for the
+confirmation purpose you played a match
+with a viral so you played like over
+five games of archery with him and you
+find that the average score of game is
+20 so which is like less likely to
+believe actual claim of avidal if he
+gets 20 as the average score because 70
+is like far away from the 20th so you
+can like reject the null hypothesis but
+suppose average score of five games is
+like 65. in that case you're more likely
+to believe his claim because that is
+near to 70 or if it is more than like 70
+like suppose he got 80 or 90. in which
+case avira is like underestimating
+himself so we can see this graph here so
+you can say like the status quo is 70.
+suppose like the score we can say for
+the five games he got a little lower
+like we can say around 55 60 or say 50
+we got we can say like squadron 50. now
+we have to understand like that we can
+reject it or not so there's a critical
+point where you will reject the average
+flame or there is a critical point above
+which you will like accept the overall
+stream so we say these points as lower
+critical value or upper critical value
+like suppose if it is 50 or it is 55 or
+it is until 45 we can say just for
+example purpose i'm saying not for
+definitive purpose if the score is 45 or
+50 around so we say like we can actually
+believe i will but and if it is lower
+than that we can say like he was just
+bragging or if he gets the value around
+like 80 or 90 which is more than 70 so
+if that is the value then we'll also
+like accept the overall stream we can
+also say that he might be
+underestimating himself so can uh see
+this graph first one in this uh see like
+if whatever the score comes out and red
+score is come under lower critical value
+suppose you believe that if he gets only
+60 below than that you feel like he's
+just bragging so he got 50 which comes
+into lower critical value so we say that
+aurel actually like was just bragging
+and suppose you can say like he got
+around 80 score so you can say okay you
+are believing in him but if you say like
+suppose he got score of around 90 or 100
+which comes into upper critical value so
+you feel like he is just underestimating
+himself so in that case if the research
+hypothesis means alternate hypothesis
+value comes under lower critical value
+of a critical value you reject the null
+hypothesis and in the similar manner if
+these values doesn't come under lower
+critical value or upper critical value
+we said it comes under acceptance region
+as you can see here like 50 comes under
+acceptance region so we accept the
+average claim so in such a situation we
+fail to reject the null hypothesis so
+this kind of test where we have like
+both a lower critical value and upper
+critical value this kind of test we say
+it has two-tailed tests
+which are mostly used in healthcare
+system like suppose there's a medicine
+in which the paracetamol drug is
+required but there's certain amount of
+quantities required like paracetamol
+which is used for curing pain and fever
+of a patient and we require like 500 and
+for curing it but suppose drug present
+in the medicine is just 300 grams it
+will like decrease the efficacy of the
+medicine and it might not be useful for
+the patient and like suppose there is a
+increase in the value of the drug like
+suppose there is seven euro grammar in
+the gram that can like do side effects
+to the patient maybe it can like cause
+diarrhea or maybe cause other problems
+so which is not a good thing there is
+both lower critical value and upper
+critical value for that so there should
+only be 500 grams of paracetamol not
+more than that not less than that so
+that's the critical point now the second
+one is lower tail test
+so lower tail test and like upper tail
+test both are there you can see how
+their graphs are shown so these kind of
+uh tests are usually used in
+manufacturing companies like we have
+taken example of mega noodles where the
+government regulatory authority found
+out that the lead content in mega
+noodles has exceeded 2.5 ppm so there is
+one kind of test like in this you can
+see like there was an upper critical
+value like if it exceeds 2.5 ppm that
+comes under upper critical value there
+are like three kinds of tests in it as
+i've explained to you like two tailed
+test lower tail test and apartheid test
+so you can see like in lower tail test
+the rejection is on the left side as you
+can see on the left side of the graph
+and if you see the right side of the
+graph you can see the rejection is on
+the right side of the distribution that
+is for upper tilt
+now that you have an idea of acceptance
+regions critical values low critical
+value upper critical value and different
+types of tests let's have a different
+example to have a better understanding
+of critical value method so assume that
+you are the owner of multiple ac stores
+you want to know about the mean demand
+of ac units per month per store during
+summer till now you have been ordering
+30 ac units per store per month based on
+the historic demand but now the
+metrological department has said that
+there will be intense heat waves so you
+anticipate that the demand might go up
+so you want to check your assumption
+that the average units required in one
+month will be different from 350 units
+per store so in this case you are
+assuming that 50 units is the average
+number of units that are sold every
+month when you are trying to visualize
+it you use a histogram and the means
+comes out to be 350 approximately like
+you can see here so this becomes the
+mean or average of population so next
+you will define the null and the
+alternate hypothesis you start with the
+null hypothesis that is the assumption
+about the status quo so you assume that
+h naught is true and this implies that
+your population mean is still equal to
+350. in this ac hypothesis problem the
+assumption is that the average demand
+for the ac units per store in one month
+is 350 units so your null hypothesis h
+naught states that the mean demand of
+acs is 350 units per store every month
+as you can see here in the graph so now
+that your null hypothesis is clear the
+next step is to state the alternative or
+research hypothesis so h1 is the
+opposite of h naught which means like
+the opposite of null hypothesis so it
+challenges the status quo this is the
+assumption that you try to prove and you
+should examine all evidence with respect
+to h1 in your access problem h1 is that
+the population mean mu is not equal to
+350. you should always examine the
+evidences with respect to alternative
+hypothesis not with respect to null
+hypothesis so now you need to formulate
+the hypothesis so the first step would
+be to in formulating the hypothesis uh
+is that h naught is equal to 350
+so there's like no change in the status
+quo and h1 is not equal to 350 which uh
+as i explained you like status q has
+changed in alternate hypothesis which
+actually is just opposite of the null
+hypothesis now you need to find the
+critical region for it suppose like the
+sample mean is very far away from 350
+suppose it's around 600 so you can
+easily say that it lies in the upper
+critical region and you can say like you
+can easily reject the null hypothesis
+here and accept the alternate hypothesis
+like you can say that the sales is
+increased and suppose example me is not
+very far away it's like very near 250
+like you can say like it's around 350
+five if you say 355 then it's like
+sample me is very close to
+so you cannot reject the null hypothesis
+but you also like can't accept because
+so for the statistical evidence we will
+see for it and then we will decide what
+we need to go for so for that we need to
+do the sampling distribution of the x
+bar so as you are working on samples you
+will compute the standard error the
+standard error can be calculated as
+standard deviation by square root of
+number of samples so you calculate the
+standard error because you want to know
+is the value 370.16 has significant
+distance from the mean 350 so the null
+hypothesis can be rejected
+now we have the normal distribution of
+sample means with a mean of 350 and we
+have the standard error or we can say
+that sample standard deviation which is
+a 15 so now we have to find the critical
+value through it so to find the critical
+value you need to first specify the
+probability of an error happening and we
+need to like keep this in mind the
+probability of an error happening should
+be the least so suppose you find out the
+critical value to be 380 so it's like if
+you get the sales of more than 380 you
+can easily reject the null hypothesis so
+we can take the significance error value
+that is alpha to be 0.05 which is
+normally taken as 0.05 only so we can
+say through this that the percentage of
+error happening is 5 only for 95 of the
+time the condition will be right means
+like for 5
+of the case when the you will reject the
+null hypothesis when null hypothesis
+will be actually true and for 95 percent
+of the cases that will be acceptance
+region so it's like we fail to reject
+the null hypothesis in 95 percent of the
+cases when it is actually true so the
+error won't take place in 95 percent of
+the time so here you can see like there
+is a lower critical region upper
+critical division there is a zc value we
+have to find out for it so as it's five
+percent means 0.05 so that will be like
+divided into half for lower critical
+region and for half for upper critical
+region so for upper critical value you
+find it by subtracting it from 1 for
+area under this curve which comes out to
+be 0.975 then we have to find the score
+for it that can be found out through
+this table like if you see horizontally
+and vertically is 0.9750 horizontally it
+is 1.9 and vertically it is 0.06 so if
+you add it comes out to be 1.96
+so then you calculate the critical value
+like upper critical value and low
+critical value from the value of zc so
+that you can calculate through this
+formula like critical value equals to mu
+plus z score into standard deviation of
+the sample okay so you can see like
+upper critical value comes out to be
+379.4 which is under the acceptance
+region and lcv comes out to be 320.6 so
+as you can see like the sample mean is
+less than upper critical value and
+greater than lower critical value that
+is it is in the acceptance region so the
+final decision is that we fail to reject
+the null hypothesis means the hypothesis
+is true so we can say that sales will be
+like equivalent to 350. so now let's
+understand in a standard form like the
+critical value method so after
+formulating the hypothesis the steps you
+must follow for making a decision using
+the critical value methods are as
+follows you can see like you have to
+calculate the value of z score from the
+given value of alpha mean significance
+level which we have taken as 0.05 so
+like you can see here like 0.05 is given
+as 5
+is not specified in the problem so then
+you have to calculate critical values
+like upper critical value critical value
+on the value of zc and finally make the
+decision on the basis of the value of
+the sample mean x with respect to the
+critical values means upper critical
+value and lower critical value i hope
+this made you understand the critical
+value method so apart from critical
+value method there's other methods as
+well to reject the null hypothesis or
+failing to reject the null hypothesis
+so we will look at one of these method
+which is p value method so we will now
+find the p value for the same ac sales
+example so you can see the p value is
+the shaded region from the gray area
+region so we have to find the like 47.16
+of mean p value will be like for like
+greater than the 370.16
+so we need to find the p value for the z
+score 1.34 so if we look for z table you
+can see like the value will be for
+0.9099
+you can see how horizontally it has been
+plotted and how vertically it has been
+plotted for 1.3 and 0.04 we have find
+the value to be 0.9099 so now for
+calculating the p value we will subtract
+0.9099 from 1. so it will come out to be
+0.090
+and just because it's a two-tailed test
+so we will multiply it by two and we get
+the value as zero point one eight zero
+that is eighteen point zero two percent
+and now so if you see the significance
+level which was zero point zero five
+that is five percent so you can see like
+your p value is higher than the
+significance level so we can now easily
+say that we cannot reject the null
+hypothesis so the final decision is that
+we fail to reject the null hypothesis so
+after formulating the null and alternate
+hypothesis the steps to follow in order
+to making a decision using the p value
+method like we have understood in the
+process is that we have to calculate the
+value of the z score for the sample mean
+point on the distribution then we need
+to calculate the p value from the
+cumulative probability for the given z
+score using the z table so and the third
+step is to finally make a decision on
+the basis of the p value like multiply
+it by two for a two tailed test with
+respect to the given value of alpha
+means the significance value so by
+comparing that we have reached the final
+conclusion i hope this made you
+understand that in the p-value method as
+well how we can use it for rejecting
+null hypothesis and or feeding rejects
+in our hypothesis
+now let's understand the types of errors
+in hypothesis testing which can occur
+so the first type of error which can
+occur in hypothesis testing we call it
+as type one either which occurs when the
+null hypothesis is actually true and we
+reject it so if you remember the
+criminal trial example so we need to
+have all amount of concrete evidences to
+prove that accused has actually done the
+crime suppose judgment for the crime is
+a death penalty just suppose and if we
+like if the judge doesn't get all the
+proper evidences and they give the
+judgment as a death penalty and somehow
+like those evidences doesn't prove that
+he is accused and suppose in reality the
+accused is actually innocent and he gets
+a death penalty that will be a very big
+error so which can actually affect the
+society a lot so that's the i mean say
+the density of type 1 error so we need
+to keep that in mind that we need to
+have concrete evidences to support our
+alternate hypothesis so we don't have to
+reject null hypothesis like that we need
+to have proper concrete evidences for it
+so then there is a second kind of error
+which is a type 2 error which occurs
+when our hypothesis is actually false
+but we still fail to reject it
+so like type 1 error is denoted by alpha
+and the type 2 error is being denoted by
+beta so in the same criminal trial
+example suppose the accused has actually
+done the crime he is actually a criminal
+but we don't have enough evidences to
+prove that he has done the crime so that
+will lead to type 2 error because that
+person can actually like the criminal
+can actually again go and do several
+other crimes and which can be harmful
+for the society that is also like a very
+great situation so these are you can say
+the types of error which can take place
+in hybris testing type and type two
+error i hope you have understood this
+concept of errors as well so now that
+you have a conceptual understanding of
+hypothesis testing let's see a case
+study of flipkart and how hypothesis
+testing can be applied in like real-time
+business and e-commerce business
+so let's first have a business
+understanding and understand the problem
+statement as well so in this entire
+demonstration you will be looking at an
+important business metric used in the
+e-commerce industry that is the
+click-through rate popularly known as
+ctr so this is a very important business
+metric especially for the businesses
+that have a website presents or
+application presence so on this metric
+we will be making claims in hypothesis
+and then test them using the concepts
+that we learned previously before
+getting into hypothesis testing part
+let's understand what uh ctr means and
+how specifically we are like going to
+use it in this demonstration
+so click through rate is a pretty
+generic yet important term in the online
+marketing industry in plain terms it
+measures the action rate of some entity
+may be a banner ad or a like a home page
+for some website or we can say if
+there's an edtech website so like people
+if people will be opening a certain
+course and applying for it so those are
+like action rate of that course of that
+entity so now let's understand how the
+search through rate or ctr can be
+defined in the search context so in the
+case of online search the ctr is the
+proportion of searches that was
+successful when you are trying to
+compute the search ctr the relevant
+formula for it can be given as like
+total number of successful searches by
+total number of searches so what are the
+successful searches so i will give you
+an example for search city through
+flipkart only
+so if you search for like we can search
+for machine learning books
+this is the like normal search we are
+doing
+and these are the results and if i go
+open a particular search and do it so
+that becomes a successful search so now
+let's get introduced to the industry
+problem statement that we are going to
+solve in this entire case study so
+suppose that you are a data analyst
+flipkart and you works with a product
+manager and that product manager claim
+that the search ctr has increased from
+25 percent to 40
+and you will be trying to test this
+claim using the concepts of hypothesis
+testing so let's reset the problem
+statement a bit further which will help
+us in hypothesis formulation as well
+so to summarize this problem statement
+you can say that the product manager is
+like claiming that the average
+population surge ctr is 40 percent that
+means out of 100 such searches on
+flipkart website around 40 searches will
+like result in conversions means uh in
+successful searches so using this we can
+like formulate the hypothesis means
+another and alternate hypothesis
+so according to the giving claim as the
+search rate is 40 percent which means
+null hypothesis will be 0.4 and the
+alternate hypothesis which means we are
+going to challenge the claim so the
+alternate hypothesis will be h1 like p
+not equal to 0.4
+now we have taken this date of 14 days
+it's like a sample we can say and in
+this we can say like on day one it has
+like 38 percent and 37 percent day 2 and
+but on some days we have 44 percent as
+well 43 and 41 as well so for the 14
+days data we have taken for the
+formulation for further like backing up
+our research hypothesis
+so now you must be thinking we can like
+go ahead and conduct the hypothesis test
+directly on the given data but think
+about it for a while like which data
+exactly are you going to test the
+hypothesis on is it the ctr of one day
+one week or multiple days since the data
+is varying a lot across all days how do
+we ensure that the sample is a random
+representation
+because we need to have an appropriate
+representative sample let's understand
+how to choose the representative sample
+so do you think like we need to take the
+data in a manner like it should uh show
+like 40 percent ctr rate on every day
+that's not possible right that's not
+happening so we will of course take the
+data where like on some days there will
+be like 40 cdr rate there on some day 35
+percent there may be some day 45
+and it will vary somewhat on weekday
+will vary on weekends it will vary right
+so according to given blame population
+mean for the given certainty is 40 or we
+can say 0.4 now the sample we have seen
+can show variation and may not be
+exactly equal to the value that is 40 so
+it is only that on an average when you
+compute the mean ctr for several days
+that will bring the search cdr average
+to be like 0.4 means 40
+so now once you have understood this
+concept you need to know which
+distribution you need to look at
+so like do you need to see the
+population distribution of sample
+distribution means them with different
+samples so now that we have understood
+that we have to focus on sample mean we
+will finally compute the sample
+parameters for the given sample data so
+we see that uh like we can see the ctr
+it's varying and we see like for every
+day there are like normal searches which
+happened around 500 500 we can see for
+day one day two and then on some day it
+happens to be 600 some day it happens to
+be 800 so it's like that so we can see
+here the clicks as well the successful
+clicks means we can do successful
+searches those are 190 185 on some days
+it is 2 312 175 as well so we can see
+the total that is like 7 400 and clicks
+come out to be 285 so for the 14 days
+come out with the average search area
+that is the total number of clicks out
+of total number of searches so which
+results in 0.39 is the source every so
+cdr so therefore like we can say the
+sample mean comes out to be 0.39 and
+sample size is 7 400. so we can say like
+we have taken the sample of for total
+searches of 7400 so that brings the
+sample size to 7400
+so next step is we need to compute the
+test statistic
+so now that we have the required sample
+parameters we need to compute the test
+statistic for the given sample for this
+we need the sampling distribution
+standard deviation as well so let's say
+you are given the population variance as
+0.24 now let's go ahead and compute the
+sampling distributions standard version
+note that you are already given the
+population variance of 0.24 so from this
+and the given sample size you need to
+compute the sampling distribution
+standard deviation recall that from the
+central limit theorem the formula for
+sample distributions standard deviation
+comes out to be sigma by root n so we
+can say that sigma square which is
+population variance is 0.24 and as we've
+already found out the sample size that
+is n equals to 7400 the the sampling
+distribution standard deviation is
+computed as a sigma by root n which
+comes out to be 0.006
+so that we have calculated the sampling
+distribution standard deviation given
+from central limit theorem comes out to
+be 0.006 so now let's go ahead and
+calculate the test statistic for the
+sample which you know will be its z
+score so z score as you know like can be
+calculated by the following formula that
+is x minus mu by sigma by root n now for
+the gain problem we have the parameters
+as follows we can say like sample mean
+is 0.3 and population mean is 0.40 that
+is claimed by the project uh manager as
+well and uh sampling distribution like
+standard deviation we have got 0.006 so
+substituting the values we get like in
+the formula that is a x we have 0.39 mu
+is 0.40 and sigma value as 0.005 means
+0.006 we can see the sigma by root n
+value that is the sampling distribution
+standard deviation that is 0.006 and we
+get this value as a z value that is
+1.756
+so this is the test statistic of our
+sample data next method is uh we have to
+find the critical region and we already
+know like what is alternate and null
+hypothesis as well as the population
+variance that is 0.24 as well as the
+sample mean to be 0.39 and the sample
+size to be 7 400 that is what we got
+from the test statistics from our sample
+data second crucial parameter that we
+need is the level of significance of
+alpha that is like how much the results
+can deviate so the level of confidence
+or alpha is the like maximum permissible
+limit to which the sample can deviate
+and for the given test we can take it as
+a
+0.05 it's like a industry thumb rule we
+can say like taking the alpha value to
+0.05 but sometimes if you have other
+situations and conditions that are
+different from them then you can have a
+different like alpha value as well but
+here we don't have any such conditions
+or situations which can affect our
+significance level so we have just taken
+it as 0.05 so using this we can find
+critical reason for the given test
+conditions so for finding the critical
+region you need to use the like value of
+alpha means the significance level as
+well as the given null hypothesis as
+well since it is a two-tailed test so we
+need to have a cut off range as well so
+this kind of range will be divided into
+two so as we have 0.05 is the
+significance level that will be divided
+into two so that will bring us to like
+regions on the left side and the right
+side that will be lower critical value
+and upper critical value so it will be
+divided into two by alpha so that comes
+out to be zero point zero to five so if
+your value comes under zero point like
+zero to five on the left side of the
+right side then we can like reject the
+null hypothesis but as we saw that our
+value is 0.39 like that comes out to
+even minus 1.756 that doesn't come under
+the critical region so it's like become
+easier for us to make the final decision
+based on the given hypothesis
+so now that you have found the critical
+region you need to check where your test
+statistic lies and based on that make
+the decision so on the basis of our
+evaluation of critical region and on the
+basis of z score and everything we have
+found that we can't reject the null
+hypothesis so therefore we can say that
+we haven't found enough statistical
+evidence to disprove the product
+manager's claim so this is about the
+finding the critical region and now
+other than finding the critical region
+we have another approach which is the
+p-value approach to do the same as well
+so let's go ahead and use that approach
+as well so here you will be doing the
+same hypothesis using an alternative
+procedure that is the p value approach
+so this is the most common way of
+finding the significance of test results
+in the industry so technically like p
+value is the probability of observing
+values which are similar to more extreme
+than the observed value given that the
+null hypothesis is true this metric also
+enables us to determine whether the
+given test statistic gives us sufficient
+evidence to reject or fail to reject the
+null hypothesis so let's go ahead and
+use this approach as well so when you
+compute the p value you sort of followed
+an opposite root to the original
+critical value root so as we know that
+the p value approaches more extreme
+approach of getting the sufficient
+evidence for rejecting or refusing to
+reject the hypothesis so on that basis
+we can get more extreme limits
+so you can get it like here for 0.39 and
+similarly on the right side as well on
+the left and right side we have got more
+extreme limits so now we can like
+compute the p value so for computing the
+probability corresponding to the given z
+score that is uh minus 1.756 we get the
+p value as a 0.039 since this is a 2
+test you multiply this value with a 2
+and obtain the p value as 0.079
+now since the value is greater than the
+given level of significance
+you failed to reject the null hypothesis
+to summarize the p-value approach also
+gives us the same result as the critical
+value approach which is uh that either
+both will reject the null hypothesis or
+fail to reject the null hypothesis so
+with this we come to the same conclusion
+as of critical value approach that we
+have still don't have a proper evidences
+like proper sufficient evidences to
+reject the project manager's claims of
+click-through rate being increased to 40
+now that we have learned about the basic
+concepts of hypothesis testing and we
+have learned like how to formulate the
+hypothesis and then make a decision
+through either the critical value method
+to the p value method so we will now
+learn how hypothesis testing is used in
+the industry and how the concepts which
+we have learned till now form an
+important foundation of useful industry
+concepts so let's start so till now we
+have done critical value method and p
+value method and both of them comes
+under z test
+but what if i tell you that we won't be
+able to apply them practically like when
+we are working in the industry it
+happens because if you know the formula
+if you remember the formula like it is
+because the formula for standard error
+is population standard deviation sigma
+by square root of sample size n and in
+most of the cases when we handling this
+the situation practically we don't have
+the population standard deviation so we
+won't be able to calculate the standard
+error so how will we calculate the
+hypothesis so here comes the t test
+before understanding t test first let's
+understand t distribution so if you see
+t distribution t distribution graph is
+actually very similar to normal
+distribution like you can see here the
+normal distribution graph in blue and
+the t distribution graph in red the only
+difference is the distribution graph is
+the shorter and later so we can say like
+redistribution is a very similar to
+normal distribution many cases for
+example like it is symmetrical about its
+central tendency however it is a shorter
+than the normal distribution and has a
+flatter tail which would eventually mean
+that it is a larger standard deviation
+and at a sample size beyond 30 the rt
+distribution becomes approximately equal
+to the normal distribution so each t
+distribution is distinguished by what
+statisticians call degree of freedom
+which are related to the sample size of
+the data set if your sample size is n
+the degrees of freedom for the
+corresponding t distribution is n plus
+one for example if your sample size is
+ten you use two distribution with ten
+minus one or nine degrees of freedom you
+can say denote it as t9 t base nine okay
+so smaller sample size have latter two
+distributions than larger sample sizes
+and as you may expect the larger the
+sample size is and the larger the degree
+of freedom so for example if your sample
+size is 10 you use a t distribution with
+10 minus 1 or say 9 degrees of freedom
+so smaller sample sizes have a
+flattering distribution than larger
+sample sizes and as you may expect the
+larger the sample size is and the larger
+the degree of freedom the more the t
+distribution looks like a standard
+normal distribution or we can say the z
+distribution so now the question is when
+the distribution is used the most
+important use of the t distribution is
+that you can approximate the value of
+the standard deviation of the population
+sigma from the standard sample standard
+deviation s
+however as the sample size increases
+more than 30 the t value tends to be
+equal to the z value thus if you want to
+summarize the decision making in a flow
+chart it will look like this
+so if you look at how the method of
+making a decision changes if you are
+using the sample standard deviation
+instead of the populations so if you
+recall the critical value method the
+first step is like calculate the value
+of zc from given value of alpha at a
+significance level take it as five
+percent if not specified in the problem
+so to find zc you would use the t table
+instead of the z table the t table
+contains values of z zc from a degree of
+freedom and value of alpha which is
+significance level so zc in this case
+can also be called as t statistic so
+practically you would not need to refer
+to the z or the table when doing
+hypothesis testing in the industry going
+forward when you need to do hypothesis
+testing and demonstrations of excel or
+we can say of our programming you were
+to use the term t test since that is
+mostly performed in the industry so all
+calculations and results of a t test are
+same as the z test whenever the sample
+size is greater than 30. now the next
+one is two sample mean test so two
+sample mean tests are divided into
+two types that is a two sample mean test
+period and two simple mean test unpaired
+so two sample mean test period is used
+when your sample observations are from
+the same individual or object doing this
+test you are testing the same subject
+twice for example if you are testing a
+new drug you would need to compare the
+sample before and after the drug is
+taken to see if the results are
+different and similarly for a two sample
+mean test unpaired which is used when
+your sample observations are independent
+during this test you are not testing the
+same subject twice for example if you
+are testing a new drug you would compare
+its effectiveness to the that of the
+standard available drug so you would
+take a sample of patients who consume
+the new drug and compare it to those who
+consume the standard drug so we will do
+a test for it we can do it in excel so
+excel is like very heavily used in
+industry
+so this is the data set we have so we
+will be performing the t tests multiple
+kind of t tests in excel so excel is
+like heavily used in industry for
+hypothesis testing so first we can see
+the one sample maintenance in one simple
+maintenance we have the commute time of
+erica employees we have taken the data
+off of 32 edureka employees and we can
+see like how much time the employees are
+taking for like reaching edureka office
+from the respective homes and then
+reaching back to their home from the
+office
+so we can say like this is the all the
+data for 82 employees and this is the
+hypothesized mean which is 35 that means
+we can say the hypothesis but we need to
+like do our research along with the
+strategies we have to come the improve
+the alternate hypothesis whatever claim
+we want to make like whether it is 35 or
+it is not that is just simple we have
+previously seen in our like p-value
+approach and critical value method also
+from our basic concepts which we have
+learned we have learned how to do it so
+this was the one sample mean test now
+let's see the two sample mean test
+paired which we just talked about
+so here you can see that there's a
+commute time for the employees given for
+day one and also for day two for the
+same employees that's why it is being
+told paired because if you see the
+sample size is same and also of the same
+person like there's a person a it has a
+commute time of 27 on day one and a
+commute time of 23 on day two similarly
+for person b the same commute time of
+like 43 for d1 and 42.2 so now what we
+have to do is we have to check for like
+uh whether the average time is
+equivalent to like we have taken the
+average commute time to be 35 so if it
+is coming 35 or not for the day 1 and d2
+and we will find the difference actually
+the difference should be zero actually
+that then only the null hypothesis will
+be correct so how we can do is if you
+know like there is this option of
+add-ins you can search for add-ins in
+excel it is items you open the add-ins
+and you will find this option of
+analysis tool pack just select this one
+and click ok
+and when you do that you will find data
+option that there is a data analysis
+pack which has been added so you open
+this
+so you can see like different types of
+tests and different types of statistical
+methods are given here for checking so
+here you can see like pms t test pair
+two sample for means is given this one
+we have to select because we are
+checking for two sample mean test paired
+so we'll go okay and we will select the
+range
+so so range is
+from here to down
+this is the range and variable two also
+range we will take just select here
+okay and hyper size mean difference
+should be zero right so we will take
+zero and alpha value is 0.05 and output
+you can also get the results in a new
+sheet but other than that you can also
+select the output range as well in that
+way you will get in the same sheet
+output range we can select
+so
+i will select column e and f
+so that is the output range and just
+click ok so you got the results here so
+you can see like has just given us pair
+two sample for means and then mean you
+can see like there's a little difference
+in mean for variable one and two and
+just a second
+so other than that the variance is also
+given observations also like you can
+crosstrack from here like how many
+samples are given in variable one and v
+will do so they are same and pearson
+correlation is given and df is also
+given t stat is given also like if it is
+a one-tailed test or two-tailed test in
+that way p-value is also given so you
+can see though like even in one tail and
+two till both the values are larger than
+zero point zero five and like zero point
+zero to five as well for two trade and
+one test in reference to that and so we
+can easily say that if comparing the
+value the values of 1 10 and 2 till test
+are higher so
+we fail to reject the null hypothesis
+and we don't have enough evidences to
+reject the null hypothesis so that is
+our two sample mean test layer now let's
+come to two sample mean test unpaired in
+the same manner and what the difference
+in this one is you can say like this is
+the commute time off for team one we can
+say of like this is for the bangalore
+quite a break of employees in bangladesh
+employees in new delhi like in italy
+employees in bangalore the computer time
+is 27 43 all these things are given but
+it is not related to team two which is
+in new delhi so it's not of the same
+person so that's why we say it as
+unpaired because both the values are not
+related to each other so in the same
+manner we can go and open the data
+analysis package so there are like two
+things if you are sure about the equal
+variances you can select but right now
+i'm not sure so i will select the t test
+to sample assuming unequal variance so
+we'll just select this and we will
+select the variable range and similarly
+for second one we are selecting this
+variable range per second
+so for variable two we will select the
+range
+difference will be zero here we want in
+the output range so we'll select the
+output
+
+so
+now you can see like the
+mean variance and everything like
+there's a significant difference in me
+and you can see the variances where and
+everything in per one tailed test
+there's a value of zero point zero one
+for two tailed two zero one zero two so
+you can see like there is significant
+difference in that and it's also like
+lower the value of one tailed test and
+total test are lower than the zero point
+zero five
+as well so we can say like we're able to
+reject the null hypothesis here so now
+let's move back to the third kind of
+test energy test and that is two simple
+proportion test
+so two sample proportion test is used
+when your sample observations are
+categorical with two categories like it
+could be true or false one or zero yes
+or no male or female or we can say like
+success of failure and they are like
+different other categorical examples so
+for example if you are comparing the
+effectiveness of true drugs you would
+define the desired outcome of the drug
+as the success so you would take a
+sample of patients who consume the new
+drug and record the number of success
+and compare it with successes in another
+sample who consume the standard drug so
+we will also see its demonstration in
+excel
+
+so this is the data for two sample
+proportion test we are going to take
+here you can say like commute time for
+day one is given and commute time for
+day two is given and then we have
+converted that into categorical data so
+if the commute time is less than 35 it's
+zero and if it is more than or equal to
+35 it is one so it's like the compute
+time is a given in such a manner but if
+it is more than 35 it is one and if it
+is a less than or equal to 35 then it is
+zero the data is given so here but how
+we will gonna make the test like execute
+the test here this time we are not going
+to use the data analysis package and
+there is one more thing called excel
+state and for that you can like simply
+search for excel stack
+and you will get it for 30 days so you
+can get a free trial of excel stud like
+it is a 14 tray free trial you can click
+here and you can get it added to your
+excel so i already have it added in my
+excel so i will just go to excel state
+here here this is the place where you
+where it get added so you just have to
+start the excel stat
+first time when you click adjust a
+process and then again you have to go to
+excel state then you can just go to test
+a hypothesis and then you have to go to
+parametric test and select the test for
+two proportions
+so you have to select the frequency for
+it just a second we'll just cross it we
+will first select the frequency we will
+first check the frequency for it so
+same data
+so here you can see the frequency is 15
+and the total sample size is 32 and in
+this one
+frequency is 20 and the total symbol
+size is 32. so we'll again go to
+parameter test two proportions and we
+can now give the frequency right so it
+is just
+15 and this is
+32 sample size
+this is 20 sample size is 32. we can
+also check the proportion as well but we
+will be like selecting the frequencies
+only not proportions so because it's
+easier so and again we can like select
+the range for it so we will just select
+the range and you can select in this
+manner the range has been selected other
+than that you can go to the options and
+here the hyper size reference will be
+zero significantly will be that and
+variance will be there and in this we
+have to like select the like proportion
+where minus proportion two is not equal
+to three that is the one hypothesis so
+we will just select okay so now you can
+see like we got the results so you can
+see like the frequencies one is to 15
+samples i1 is 32 frequency everything is
+given sample size roots in the same
+frequency and the same sample size same
+when it is given also like if you want
+to run again with a different frequency
+that also you can run that's not a
+problem so if you like want to change
+the alpha value in the significance
+level you can change that and again run
+and you can see the difference is given
+so we see that the p value is 0.309
+which is larger than 0.05 so it is the
+answer is also given that the difference
+between the proportion is equal to 0 and
+the difference between the proportion is
+different from 0 that is the alternate
+hypothesis but as the compared p value
+is greater than the significance level
+alpha and so we cannot reject the
+hypothesis so we got the answer here so
+now let's move on to the next test the
+next test is a b testing so a b testing
+is a like a direct industry application
+of the two sample proportion test simple
+while developing an e-commerce website
+there could be like different opinions
+about the choices of various events such
+as the shape of buttons the text on the
+call to action buttons or like the
+colors of various ui elements or we can
+say like the copy on the website or
+numerous other such things so often the
+choice of these elements is very
+subjective and is difficult to predict
+which option would perform better so to
+resolve such conflicts you can use a b
+testing so av testing provides a way for
+you to test two different versions of
+the same elements and see which one
+performs better so eb testing is like
+entirely based on the two symbol of
+quotient test as the two sample
+proportion test is used when you want to
+compare the proportions of two different
+samples you can use various tools to
+conduct kv testing like r or optimizely
+etcetera so but here we will be doing
+the same db testing in excel you can
+like use various uh tools to conduct av
+testing like optimizely excel etc so
+let's see an example of a testing like
+if you know like there's this media
+company like gaming company electronic
+arts so when uh electronic arts or
+successful media company released a new
+version of one of its most popular games
+the company wanted to get it right which
+is the simcity 5 game so if you see the
+homepage or simpson city 5 a simulation
+game that allows players to construct
+and run their own cities would
+undoubtedly do well in terms of sales so
+electronic arts wanted to capitalize on
+its popularity so according to like
+hubspot electronic cars relied on av
+testing to get its slide page for some
+city pipe just right so the desire
+behind this av testing example revolved
+around improving sales so electronic
+arts wanted to maximize revenue from the
+game immediately upon its release as
+well as through pre-sales efforts so
+these days people can like buy and
+download games immediately the digital
+revolution has paid those plastic
+encased cds nearly like absolute
+especially since companies like
+electronic arts promote your digital
+downloads it's less expensive for the
+company as well and like more convenient
+for the consumer so however sometimes
+the smallest things can like influence
+conversions like electronic arts wanted
+to av test different versions of its
+sales page to identify how it could
+increase sales exponentially so i'm
+highlighting this particular a b testing
+example because it shows how hypothesis
+and conventional wisdom can blow up in
+your faces so for instance most
+marketers assume that advertising
+incentive will result in increased sales
+that's often the case but not this time
+so the original version of the pre-order
+page which you can see here has offered
+20 off on a future purchase for anyone
+who bought sim city 5 and you can see
+the option b so which is the variation
+which is uh like created afterwards the
+variation if you see like has eliminated
+the pre-order incentive like you can see
+here the pre-order incentive is given
+and here there's no pre-order incentive
+so as it turns out like the variations
+performed more than actually forty
+percent better means option be performed
+forty percent better than the control
+version means the original version so
+avid fans of simcity five weren't
+interested in an incentive so they just
+wanted to buy the game as a result of
+the a b test half of the game sales were
+digital so do you understand why it
+works so the ap test for electronic arts
+revealed important information about the
+game's audiences like many people who
+play a popular game like simcity don't
+play any other games they like this
+particular franchise consequently the
+twenty percent of offer didn't resonate
+with them if you make assumptions about
+your target audience you will eventually
+get it wrong so human behavior is like
+difficult to understand even without
+hard data so you need a b testing to
+generate data on which you can rely so
+let's now demonstrate a b testing also
+on the same excel file we have the data
+set already so we will just go to a b
+testing data
+so you can see the data is given here
+for control group and variable group
+so we can say like this is for our
+educator website only for example so
+like someone has a reached our website
+and has opened the course and if that
+person registers on the application so
+that is where we give them as a one and
+who haven't registered we give them a
+zero that is how it has been labeled
+that's how we have labeled the data
+whoever is registered it's one and
+whoever has not registered and what has
+opened the course we have labeled it as
+zero let's now check the results for
+both of them so let's go to excel stat
+and same visualizing data we can open
+not the visualizing so test a hypothesis
+and we can go to parametric test and we
+can do the same test for two proportions
+so first let's check the frequency of it
+
+so you can see the total sample size is
+2 6 2 0 and sum is 6 18
+so we will just select it here we will
+just copy it here 6 618 and 2620
+
+so similarly we will do the count for
+variable two also and we got like six
+zero one and the frequency and the two
+three eight zero is the sample size so
+we will just go to test hypothesis do
+parametric tests test for two
+proportions
+we will just fill the values here six
+one eight
+and this is a two six two zero so six
+zero one
+two three zero so the frequency and then
+we will select the range as well
+like this range and other than that we
+will go to options and for this one we
+will select the proportion one minus two
+proportion two is smaller than d which
+is less than thirty five that is our
+null hypothesis and everything is same
+like zero and significant stable five
+and then we will just give okay so
+results will be here soon
+so yeah as i am using the excel straight
+trial version so it is showing like to
+use the price version so yeah so
+you can see here is like test for two
+proportions we have done which is the eb
+test but you can see like the frequency
+and everything is given here frequencies
+you can see like six zero one out of two
+two three eight zero end
+so if you calculate it in percentage for
+the variable one that is for control
+group there's a 23 percent success and
+for
+the sample size 2 which is like variable
+group for that the success rate is 25
+so we found the variance also like
+continuity correction everything is
+there data is given and like 95
+confidence interval on the difference
+between the opportunities we have got
+and you can see like the p value 0.091
+which is like the an alpha value 0.05 so
+we see like p value is greater than
+alpha value so the answer is like we
+cannot like reject the null hypothesis
+because like p value is greater so
+that's how the a b testing is done so
+now we are like done with all the
+testings and we have completed the
+industry demonstration as well so we
+have also understood all the concepts of
+hypothesis testing and we have also
+implemented them on like with the
+relevance of industry whatever the test
+has been conducted in industry of those
+kind of tests also we have conducted i
+hope the concepts of hypothesis testing
+are now clear to you with this we come
+to the end of today's session of
+hypothesis testing statistics i hope you
+had a great time learning and
+understanding about it and if you have
+any doubts please feel free to leave
+them down in the comment section below
+until next time thank you
+i hope you have enjoyed listening to
+this video please be kind enough to like
+it and you can comment any of your
+doubts and queries and we will reply
+them at the earliest do look out for
+more videos in our playlist and
+subscribe to edureka channel to learn
+more happy learning
