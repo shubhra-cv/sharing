@@ -1,1 +1,2 @@
 https://github.com/abhi12ravi/topic-modeling-bertopic-dh/blob/main/01_The_Data_Hour_Topic_Modeling.ipynb
+https://speakerdeck.com/abhi12ravi/demystifying-clustering-in-topic-modeling-algorithms-like-bertopic?slide=17
